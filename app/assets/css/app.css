@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+@utility container {
+  @apply px-4 md:px-8 mx-auto;
+}
+
+@theme {
+  --font-display: 'Poppins', serif;
+
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+  --color-primary: #6d95fc;
+}
+
+@layer base {
+  body {
+    @apply xl:text-[length:1.3125rem];
+  }
+
+  h1 {
+    @apply text-4xl lg:text-[length:5rem];
+  }
+
+  h2 {
+    @apply text-3xl lg:text-[length:4rem];
+  }
+
+  h3 {
+    @apply text-2xl lg:text-[length:3.4375rem];
+  }
+}
