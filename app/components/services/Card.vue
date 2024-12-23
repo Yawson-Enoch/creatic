@@ -10,7 +10,7 @@ const props = defineProps<Props>();
 
 <template>
   <div
-    class="xl:min-w-[18.75rem] xl:aspect-square grid place-items-center place-content-center p-2 md:p-4 text-center"
+    class="xl:min-w-[18.75rem] xl:aspect-square grid place-items-center place-content-center p-4 md:p-8 text-center"
   >
     <NuxtImg :src="props.image" />
     <p class="text-primary mt-4">

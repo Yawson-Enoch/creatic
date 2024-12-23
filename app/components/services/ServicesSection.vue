@@ -5,13 +5,13 @@ import Card from './Card.vue';
 
 <template>
   <section
-    class="flex flex-col md:grid md:grid-cols-2 container lg:py-12 py-8 gap-x-8 gap-y-8"
+    class="flex flex-col md:grid md:grid-cols-2 container py-8 md:py-12 gap-x-8 gap-y-8"
   >
     <div class="max-w-[36.8125rem] space-y-4 md:space-y-8 self-center">
       <p class="text-primary">OUR SERVICES</p>
-      <h2>
+      <h3>
         Experience The Power Of <span class="text-primary">Innovation</span>
-      </h2>
+      </h3>
       <div class="h-[.1875rem] w-[6.0938rem] bg-foreground" />
       <p>
         Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit
@@ -21,7 +21,7 @@ import Card from './Card.vue';
       <Button> VIEW ALL </Button>
     </div>
 
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-2 py-4 md:py-8">
       <Card
         image="/images/services/video-icon.webp"
         title="VIDEO MARKETING"

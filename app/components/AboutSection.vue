@@ -24,12 +24,12 @@ import Button from './ui/Button.vue';
         </div>
       </div>
       <div
-        class="space-y-3 md:space-y-6 max-w-[44.25rem] place-self-center container py-4 md:py-8"
+        class="space-y-3 md:space-y-6 max-w-[44.25rem] place-self-center container py-8 md:py-12"
       >
         <p class="uppercase text-primary">ABOUT US</p>
-        <h2>
+        <h3>
           We Bring <span class="text-primary">Creative</span> ideas to life.
-        </h2>
+        </h3>
         <div class="w-[6.0938rem] h-[3px] bg-foreground" />
         <p class="text-primary">We love Creating</p>
         <p>

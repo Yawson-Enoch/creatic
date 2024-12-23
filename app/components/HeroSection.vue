@@ -4,7 +4,7 @@ import Button from './ui/Button.vue';
 
 <template>
   <section
-    class="py-4 md:py-8 xl:py-[11.5625rem]"
+    class="py-8 md:py-12 xl:py-[11.5625rem]"
     style="
       background-image: linear-gradient(
         269deg,
