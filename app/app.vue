@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import AboutSection from './components/AboutSection.vue';
+import Footer from './components/Footer.vue';
 import GetInTouchSection from './components/GetInTouchSection.vue';
 import Header from './components/Header.vue';
 import HeroSection from './components/HeroSection.vue';
@@ -21,5 +22,6 @@ import WorkSection from './components/work/WorkSection.vue';
     <WhyUsSection />
     <TestimonialsSection />
     <GetInTouchSection />
+    <Footer />
   </div>
 </template>
