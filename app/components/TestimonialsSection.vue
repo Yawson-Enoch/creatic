@@ -9,7 +9,7 @@ import Button from './ui/Button.vue';
   >
     <NuxtImg
       src="/images/testimonial-image1.webp"
-      class="max-xl:hidden w-full"
+      class="max-xl:hidden size-full"
     />
 
     <!-- testimonial -->
@@ -58,7 +58,7 @@ import Button from './ui/Button.vue';
 
     <NuxtImg
       src="/images/testimonial-image2.webp"
-      class="max-xl:hidden w-full"
+      class="max-xl:hidden size-full"
     />
   </section>
 </template>
