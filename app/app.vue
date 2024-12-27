@@ -4,6 +4,7 @@ import Header from './components/Header.vue';
 import HeroSection from './components/HeroSection.vue';
 import RecordsSection from './components/records/RecordsSection.vue';
 import ServicesSection from './components/services/ServicesSection.vue';
+import TestimonialsSection from './components/TestimonialsSection.vue';
 import WhyUsSection from './components/WhyUsSection.vue';
 import WorkSection from './components/work/WorkSection.vue';
 </script>
@@ -17,5 +18,6 @@ import WorkSection from './components/work/WorkSection.vue';
     <RecordsSection />
     <WorkSection />
     <WhyUsSection />
+    <TestimonialsSection />
   </div>
 </template>

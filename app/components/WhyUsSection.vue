@@ -5,7 +5,7 @@ import Button from './ui/Button.vue';
 
 <template>
   <section class="grid md:grid-cols-2 items-center content-center">
-    <div class="container py-4 md:py-12 max-md:pt-8">
+    <div class="container py-4 md:py-12 max-md:pt-8 h-full">
       <div class="inline-grid justify-items-center">
         <p>WHY US?</p>
         <div class="w-[6.9014rem] h-[.1816rem] bg-primary" />
@@ -18,6 +18,7 @@ import Button from './ui/Button.vue';
     </div>
 
     <div
+      class="h-full"
       style="
         background-image: linear-gradient(
           to top left,
