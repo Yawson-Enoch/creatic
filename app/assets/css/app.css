@@ -14,7 +14,7 @@
 
 @layer base {
   body {
-    @apply xl:text-[length:1.3125rem];
+    @apply xl:text-[length:1.3125rem] font-display bg-background text-foreground min-h-dvh;
   }
 
   h1 {

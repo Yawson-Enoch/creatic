@@ -1,9 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import CancelIcon from './CancelIcon.vue';
-import MenuIcon from './MenuIcon.vue';
-import SearchIcon from './SearchIcon.vue';
-
 const links = [
   {
     label: 'Home',

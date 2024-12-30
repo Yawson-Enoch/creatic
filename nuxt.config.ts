@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
   compatibilityDate: '2024-11-01',
+
   devtools: { enabled: true },
 
   css: ['@/assets/css/app.css'],
@@ -12,6 +13,7 @@ export default defineNuxtConfig({
   },
 
   modules: ['@nuxt/fonts', '@nuxt/image', 'nuxt-swiper'],
+
   fonts: {
     provider: 'google',
     experimental: {
@@ -19,11 +21,15 @@ export default defineNuxtConfig({
     },
   },
 
-  /* disable auto-imports */
-  imports: {
-    autoImport: false,
+  runtimeConfig: {
+    public: {
+      /* this gets overridden when NUXT_PUBLIC_SITE_URL env var is set */
+      siteUrl: '',
+    },
   },
-  components: {
-    dirs: [],
+
+  /* SSG: pregenerate all pages at build time */
+  routeRules: {
+    '/**': { prerender: true },
   },
 });

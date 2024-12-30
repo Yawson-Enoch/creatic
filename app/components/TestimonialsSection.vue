@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import Blockquote from './Blockquote.vue';
-import Button from './ui/Button.vue';
-</script>
-
 <template>
   <section
     class="grid xl:grid-cols-3 w-full justify-center xl:justify-between xl:gap-x-20 max-xl:container"
@@ -46,8 +41,8 @@ import Button from './ui/Button.vue';
               </div>
             </div>
             <div class="flex items-center max-md:ml-2 self-start">
-              <Blockquote class="max-md:size-4" />
-              <Blockquote class="max-md:size-4" />
+              <BlockquoteIcon class="max-md:size-4" />
+              <BlockquoteIcon class="max-md:size-4" />
             </div>
           </div>
         </div>

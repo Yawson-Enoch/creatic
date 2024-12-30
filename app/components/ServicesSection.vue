@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import Button from '../ui/Button.vue';
-import Card from './Card.vue';
-</script>
-
 <template>
   <section
     class="flex flex-col md:grid md:grid-cols-2 container py-8 md:py-12 gap-x-8 gap-y-8"
@@ -22,7 +17,7 @@ import Card from './Card.vue';
     </div>
 
     <div class="grid grid-cols-2 py-4 md:py-8">
-      <Card
+      <ServicesCard
         image="/images/services/video-icon.webp"
         title="VIDEO MARKETING"
         description="Lorem ipsum Neque do porro quisquam est qui do quam"
@@ -34,7 +29,7 @@ import Card from './Card.vue';
           );
         "
       />
-      <Card
+      <ServicesCard
         image="/images/services/graphic-icon.webp"
         title="GRAPHIC DESIGN"
         description="Lorem ipsum Neque do porro quisquam est qui do quam"
@@ -46,7 +41,7 @@ import Card from './Card.vue';
           );
         "
       />
-      <Card
+      <ServicesCard
         image="/images/services/ux-icon.webp"
         title="UI/UX DESIGN"
         description="Lorem ipsum Neque do porro quisquam est qui do quam"
@@ -58,7 +53,7 @@ import Card from './Card.vue';
           );
         "
       />
-      <Card
+      <ServicesCard
         image="/images/services/web-icon.webp"
         title="WEBSITE DESIGN"
         description="Lorem ipsum Neque do porro quisquam est qui do quam"

@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import Slider from './Slider.vue';
-</script>
-
 <template>
   <section class="py-8 md:py-16 space-y-6 md:space-y-12">
     <div
@@ -18,6 +14,6 @@ import Slider from './Slider.vue';
         <div class="w-[6.0938rem] h-[.1875rem] bg-foreground" />
       </div>
     </div>
-    <Slider />
+    <WorkSlider />
   </section>
 </template>

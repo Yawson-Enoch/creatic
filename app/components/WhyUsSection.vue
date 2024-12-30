@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import CheckIccon from './CheckIccon.vue';
-import Button from './ui/Button.vue';
-</script>
-
 <template>
   <section class="grid md:grid-cols-2 items-center content-center">
     <div class="container py-4 md:py-12 max-md:pt-8 h-full">
@@ -34,15 +29,15 @@ import Button from './ui/Button.vue';
         </p>
         <ul class="space-y-1.5">
           <li class="flex items-center gap-x-3">
-            <CheckIccon />
+            <CheckIcon />
             <p>Happy Customer</p>
           </li>
           <li class="flex items-center gap-x-3">
-            <CheckIccon />
+            <CheckIcon />
             <p>Experienced Team</p>
           </li>
           <li class="flex items-center gap-x-3">
-            <CheckIccon />
+            <CheckIcon />
             <p>Modern Technology</p>
           </li>
         </ul>

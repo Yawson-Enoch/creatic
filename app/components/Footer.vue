@@ -1,11 +1,4 @@
 <script setup lang="ts">
-import FacebookIcon from './FacebookIcon.vue';
-import InstagramIcon from './InstagramIcon.vue';
-import LinkedinIcon from './LinkedinIcon.vue';
-import PinterestIcon from './PinterestIcon.vue';
-import TwitterIcon from './TwitterIcon.vue';
-import WhatsAppIcon from './WhatsAppIcon.vue';
-
 const links = [
   {
     label: 'Categories',

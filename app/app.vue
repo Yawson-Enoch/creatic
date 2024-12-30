@@ -1,18 +1,43 @@
 <script setup lang="ts">
-import AboutSection from './components/AboutSection.vue';
-import Footer from './components/Footer.vue';
-import GetInTouchSection from './components/GetInTouchSection.vue';
-import Header from './components/Header.vue';
-import HeroSection from './components/HeroSection.vue';
-import RecordsSection from './components/records/RecordsSection.vue';
-import ServicesSection from './components/services/ServicesSection.vue';
-import TestimonialsSection from './components/TestimonialsSection.vue';
-import WhyUsSection from './components/WhyUsSection.vue';
-import WorkSection from './components/work/WorkSection.vue';
+/* siteUrl fallback to localhost to preview og on localhost */
+const config = useRuntimeConfig();
+const reqUrl = useRequestURL();
+const siteUrl =
+  config.public.siteUrl || `http://localhost:${reqUrl.port || 3000}`;
+
+const title = 'Creatic';
+const description = 'Building random UIs';
+
+/* charset and meta viewport are set by default */
+useHead({
+  htmlAttrs: {
+    lang: 'en',
+  },
+  link: [{ rel: 'icon', href: '/favicon.ico' }],
+});
+
+useSeoMeta({
+  titleTemplate: (t) => (t === title ? t : `${t} | ${title}`),
+
+  title,
+  description,
+
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: `${siteUrl}/og-image.png`,
+  ogImageAlt: 'Creatic Agency Website',
+
+  twitterCreator: '@gybex_enock',
+  twitterCard: 'summary_large_image',
+
+  themeColor: '#000000',
+  /* prevent page indexing in search engines */
+  robots: 'noindex, nofollow',
+});
 </script>
 
 <template>
-  <div class="font-display bg-background text-foreground min-h-dvh">
+  <div class="min-h-dvh">
     <Header />
     <HeroSection />
     <AboutSection />

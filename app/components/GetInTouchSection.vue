@@ -1,10 +1,3 @@
-<script setup lang="ts">
-import AddressIcon from './AddressIcon.vue';
-import MailIcon from './MailIcon.vue';
-import PhoneIcon from './PhoneIcon.vue';
-import Button from './ui/Button.vue';
-</script>
-
 <template>
   <section class="grid md:grid-cols-2">
     <div class="flex justify-end container h-full py-8 md:py-12">
