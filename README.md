@@ -1,4 +1,4 @@
-# Nuxt Minimal Starter
+# [Creatic](<https://www.figma.com/design/5ZKzIKgNMdzy5MQitgn6p3/Free-Creative-Agency-Landing-Page-Design-(Community)?node-id=3-6&p=f&m=dev>)
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
